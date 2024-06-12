@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-sidebar {
+  transform: translateX(-100%);
+}
+
+.show-sidebar {
+  transform: translateX(0);
+}
+
+.sidebar-open .open-btn {
+  display: none;
+}
+
+.close-btn {
+  display: none;
+}
+
+.sidebar-open .close-btn {
+  display: flex;
+}
